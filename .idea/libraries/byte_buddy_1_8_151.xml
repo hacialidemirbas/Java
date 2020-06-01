@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="byte-buddy-1.8.151">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SeleniumJava/libs/byte-buddy-1.8.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SeleniumJava/libs/commons-exec-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SeleniumJava/libs/guava-25.0-jre.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SeleniumJava/libs/okhttp-3.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SeleniumJava/libs/okio-1.14.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SeleniumJava/client-combined-3.141.59.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Selenium/apiguardian-api-1.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Selenium/junit-jupiter-api-5.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Selenium/junit-platform-commons-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Selenium/opentest4j-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Selenium/selenium-server-4.0.0-alpha-5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/SeleniumJava/client-combined-3.141.59-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

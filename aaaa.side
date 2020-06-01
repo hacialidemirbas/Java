@@ -1,0 +1,21 @@
+{
+  "id": "0eecaf34-1315-4e13-8ceb-43c36a3065aa",
+  "version": "2.0",
+  "name": "aaaa",
+  "url": "",
+  "tests": [{
+    "id": "6f113186-75c9-41e8-9ddc-cfc233598e96",
+    "name": "aaaa",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "c8eb5930-9df9-4264-977a-b7e1315a86a8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6f113186-75c9-41e8-9ddc-cfc233598e96"]
+  }],
+  "urls": [],
+  "plugins": []
+}
