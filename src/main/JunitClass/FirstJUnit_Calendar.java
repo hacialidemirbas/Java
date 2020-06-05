@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
-public class FirstJUnitListCalendar {
+public class FirstJUnit_Calendar {
     static WebDriver chromeDriver;
     static String baseUrl;
     @BeforeAll

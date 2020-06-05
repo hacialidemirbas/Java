@@ -12,6 +12,14 @@
       <root url="jar://$PROJECT_DIR$/../../../../Selenium/junit-platform-commons-1.6.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../../../Selenium/opentest4j-1.2.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../../../Selenium/selenium-server-4.0.0-alpha-5.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/commons-io-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Selenium/Compile Dependencies/guice-4.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Selenium/Compile Dependencies/guice-4.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Selenium/Compile Dependencies/jcommander-1.72.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Selenium/Compile Dependencies/jcommander-1.78.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Selenium/Compile Dependencies/snakeyaml-1.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Selenium/Compile Dependencies/snakeyaml-1.26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Selenium/Compile Dependencies/testng-7.1.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

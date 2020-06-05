@@ -12,7 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.util.List;
 import java.util.Set;
 
-public class FirstJUnitFrame {
+public class FirstJUnit_iFrame {
     static WebDriver fireFoxDriver;
     static String baseUrl;
     static JavascriptExecutor jse;
