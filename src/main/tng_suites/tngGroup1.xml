@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+    <test name="app testing test">
+        <groups>
+            <run>
+                <include name="iphone"></include>
+            </run>
+        </groups>
+      <classes>
+          <class name="main.TestNG.TNG_Group"></class>
+      </classes>
+    </test>
+    //enable/disable tests -> as follows
+    <test name="app testing test samsungGalaxy" enabled="false">
+        <groups>
+            <run>
+                <include name="samsung"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="main.TestNG.TNG_Group"></class>
+        </classes>
+    </test>
+
+<test name="app testing test samsungGalaxyNote">
+<groups>
+    <run>
+        <include name="note"></include>
+    </run>
+</groups>
+<classes>
+    <class name="main.TestNG.TNG_Group"></class>
+</classes>
+</test>
+
+    </suite>
