@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+    <test name="app testing test">
+        <groups>
+            <run>
+                <exclude name="Mobile">
+
+                </exclude>
+            </run>
+        </groups>
+      <packages>
+          <package name="main.TestNG.exercises"/>
+
+         </packages>
+    </test>
+    </suite>

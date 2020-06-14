@@ -1,8 +1,8 @@
-package main.TestNG;
+package main.TestNG.exercises;
 
 import org.testng.annotations.*;
 
-public class TNG_Class_Method {
+public class TNG_Exercises1 {
     @BeforeSuite
     public void bSuite(){
         System.out.println("@BeforeSuite method ");
@@ -27,16 +27,16 @@ public class TNG_Class_Method {
     public void quit(){
         System.out.println("@AfterMethod method ");
     }
-    @Test
-    public void test1 (){
-        System.out.println("@Test1 method");
+    @Test(groups = {"Mobile"})
+    public void selenium (){
+        System.out.println("@Selenium method");
     }
     @Test
-    public void test2 (){
-        System.out.println("@Test2 method");
+    public void java (){
+        System.out.println("@Java method");
     }
     @Test
-    public void test3 (){
-        System.out.println("@Test3 method");
+    public void microsoft (){
+        System.out.println("@Microsoft method");
     }
 }

@@ -20,10 +20,15 @@
       <root url="jar://$PROJECT_DIR$/../../../../Selenium/Compile Dependencies/snakeyaml-1.21.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../../../Selenium/Compile Dependencies/snakeyaml-1.26.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../../../Selenium/Compile Dependencies/testng-7.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Selenium/extentreports-2.41.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Selenium/freemarker-2.3.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Selenium/jsoup-1.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Selenium/sqlite-jdbc-3.31.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/SeleniumJava/client-combined-3.141.59-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/junit-jupiter-api-5.6.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

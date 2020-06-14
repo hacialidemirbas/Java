@@ -25,13 +25,13 @@ public class TNG_Parameters {
     public void setUP(String browser, String platform){
         System.out.println("Browser name is "+ browser+"  Platform name is "+platform);
         baseUrl="https://jqueryui.com/";
-        setBrowser(browser);
+        setBrowser(browser, platform);
         action= new Actions(driver);
         driver.manage().window().maximize();
         driver.get(baseUrl);
         System.out.println("@BeforeAll-executed once before all test methods in this class");System.out.println("@BeforeClass method ");
     }
-    private void setBrowser(String browser){
+    private void setBrowser(String browser, String platform){
         switch (browser.toLowerCase()){
             case "chrome":
                 System.setProperty("webdriver.chrome.driver","C:\\Users\\hacia\\IdeaProjects\\NA_AutoBoot\\chromedriver.exe");
@@ -74,19 +74,19 @@ public class TNG_Parameters {
         System.out.println("@Test1 - test executed");
         System.out.println("@Test1 method");
     }
-    @Test(dependsOnMethods = {"test1"})
+    @Test
     public void test2 () throws InterruptedException {
        WebElement getStarted= driver.findElement(By.xpath("//a[@title='Getting Started']"));
        getStarted.click();
     }
-    @Test(dependsOnMethods = {"test2"})
+    @Test
     public void test3 (){
         WebElement signUp= driver.findElement(By.xpath("//li[@id='ProblemsFilterMenuList']"));
         signUp.click();
 
         System.out.println("@Test3 method");
     }
-    @Test(dependsOnMethods = {"test3"}, timeOut = 1000)
+    @Test
     public void test4 () throws InterruptedException {
         Thread.sleep(2000);
         WebElement signUp= driver.findElement(By.xpath("//li[@id='ProblemsFilterMenuList']"));

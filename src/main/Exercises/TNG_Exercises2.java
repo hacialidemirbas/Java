@@ -1,8 +1,8 @@
-package main.TestNG;
+package main.TestNG.exercises;
 
 import org.testng.annotations.*;
 
-public class TNG_Class_Method {
+public class TNG_Exercises2 {
     @BeforeSuite
     public void bSuite(){
         System.out.println("@BeforeSuite method ");
@@ -27,16 +27,24 @@ public class TNG_Class_Method {
     public void quit(){
         System.out.println("@AfterMethod method ");
     }
-    @Test
-    public void test1 (){
-        System.out.println("@Test1 method");
+    @Test(groups = {"Mobile"})
+    public void chrome (){
+        System.out.println("@Chrome method");
+    }
+    @Test(dependsOnMethods = "main.TestNG.exercises.TNG_Exercises1.java")
+    public void firefox (){
+        System.out.println("@FireFox method");
     }
     @Test
-    public void test2 (){
-        System.out.println("@Test2 method");
+    public void edge (){
+        System.out.println("@Edge method");
     }
-    @Test
-    public void test3 (){
-        System.out.println("@Test3 method");
+    @AfterTest
+    public void aTest (){
+        System.out.println("@AfterTest executed");
+    }
+    @BeforeTest
+    public void bTest (){
+        System.out.println("@BeforeTest executed");
     }
 }

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="JQUERY Tests" parallel="tests" thread-count="10">
+    <test name="CLA Test">
+        <!--<parameter name="linkNm" value="CLA"></parameter>
+        <parameter name="header" value="OpenJS Foundation"></parameter>
+        <parameter name="urlLink" value="openjsf"></parameter>-->
+        <classes>
+            <class name="main.TestNG.TNG_DataProvider"></class>
+        </classes>
+    </test>
+</suite>
